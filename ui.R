@@ -9,13 +9,12 @@
 
 library(shiny)
 
-# Define UI for application that draws a histogram
+# Define UI for application
 shinyUI(fluidPage(
   
   # Application title
   titlePanel("Predict Diamond Price"),
   
-  # Sidebar with a slider input for number of bins 
   sidebarLayout(
     sidebarPanel(
       helpText("This is a simple application which predicts Diamond prices based on the characterisitcs provided by the user."),
@@ -37,7 +36,7 @@ shinyUI(fluidPage(
                                  "VVS2" = "VVS2", "VVS1" = "VVS1", "IF" = "IF" ))
     ),
     
-    # Show a plot of the generated distribution
+    # Show a plot of the generated diamond price
     mainPanel(
       plotOutput("distPlot"),
       h4("Our model predicted value: ", textOutput("result"))
