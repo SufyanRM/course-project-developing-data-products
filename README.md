@@ -4,4 +4,4 @@ This is a simple application which predicts diamond price based on characterisit
 
 It takes Carat, Diamond Cut, Quality and Color as Input and fits a multivariate linear model to predict the price.
 
-Presentation file for the pitch can be found at [rpubs]().
+Presentation file for the pitch can be found at [here](https://sufyanrm.github.io/course-project-developing-data-products/).
